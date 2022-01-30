@@ -13,7 +13,7 @@
     --ff-primary: 'Montserrat', sans-serif;
 }
 .back{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(https://user-images.githubusercontent.com/97962291/151573330-d7158b91-f2ac-418d-be23-4395d92b940d.png);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(https://user-images.githubusercontent.com/97962291/151573330-d7158b91-f2ac-418d-be23-4395d92b940d.png);
     height: 1000px;
     width: 100%;
     padding: 15px;
@@ -81,7 +81,7 @@ p{
     color: white;
 }
 div.button{
-
+    
 }
 div.people{
     display: grid;
@@ -93,8 +93,8 @@ div.people{
 }
 .peace,.set,.satisfaction{
      border:hidden;
-     width: 150px;
-     padding: 30px 25px 25px 25px;
+     width: 240px;
+     padding: 25px 25px 25px 25px;
      transform: 1.3;
 
 }
@@ -112,5 +112,34 @@ div.people{
 }
 .satisfaction>p{
     color: var(--clr-grey);
+}
+div.book{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 30px;
+    margin-left: 100px;
+    margin-top:80px ;
+    margin-bottom: 30px;
+}
+.mind,.life,.per{
+    border:hidden;
+     width: 270px;
+     padding: 30px 25px 25px 25px;
+     transform: 1.3;
+     background: white;
+
+}
+.mind>p{
+    color: var(--clr-grey);
+}
+.life>p{
+    color: var(--clr-grey);
+}
+.per>p{
+    color: var(--clr-grey);
+    
+}
+.per{
+    margin-top: 40px;
 }
 

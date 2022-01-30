@@ -80,9 +80,7 @@ h2{
 p{
     color: white;
 }
-div.button{
     
-}
 div.people{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -116,8 +114,8 @@ div.people{
 div.book{
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-column-gap: 30px;
-    margin-left: 100px;
+    grid-column-gap: 10px;
+    margin-left: 82px;
     margin-top:80px ;
     margin-bottom: 30px;
 }
@@ -142,4 +140,18 @@ div.book{
 .per{
     margin-top: 40px;
 }
-
+.industry>.problem{
+   text-align: center;
+}
+.problem>h3{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+.problem>p{
+    color:var(--clr-grey );
+}
+.user-1,.user-2,.user-3{
+       
+    
+}

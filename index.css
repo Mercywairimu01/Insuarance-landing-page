@@ -55,7 +55,7 @@ a{
 
 }
 button{
-    background-color: blue;
+    background-color:#23A6F0;
     color: white;
 }
 div.first{
@@ -97,7 +97,7 @@ div.people{
 
 }
 .satisfaction{
-    background: rgb(40, 200, 221);
+    background:#23A6F0 ;
 }
 .peace,.set{
     background: white;
@@ -151,7 +151,27 @@ div.book{
 .problem>p{
     color:var(--clr-grey );
 }
-.user-1,.user-2,.user-3{
-       
+.industry{
+    background:#F1F1F1 ;
+    
     
 }
+.woman{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 30px;
+    margin-left: 100px;
+    margin-top:200px ;
+    margin-bottom: 30px;
+}
+.user-1,.user-2,.user-3{
+    border:0.2px solid #EDEDED;
+    width: 240px;
+    padding: 25px 25px 25px 25px;
+    transform: 1.3;
+    background: #FFFFFF;
+}
+.woman,p{
+    color: #878787;
+}
+

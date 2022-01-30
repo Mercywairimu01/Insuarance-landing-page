@@ -214,3 +214,18 @@ div.book{
 .pricing>p{
     color:var(--clr-grey );
 }
+.container{ 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 30px;
+    margin-left: 240px;
+    margin-top:200px ;
+    margin-bottom: 30px;
+}
+.free,.standard,.premium{
+    border:hidden;
+     width: 270px;
+     padding: 30px 25px 25px 25px;
+     transform: 1.3;
+     background: white;
+}

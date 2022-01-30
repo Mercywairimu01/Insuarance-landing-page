@@ -120,7 +120,7 @@ div.book{
     margin-bottom: 30px;
 }
 .mind,.life,.per{
-    border:hidden;
+     border:hidden;
      width: 270px;
      padding: 30px 25px 25px 25px;
      transform: 1.3;
@@ -217,15 +217,114 @@ div.book{
 .container{ 
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-column-gap: 30px;
+    grid-column-gap: 0px;
     margin-left: 240px;
     margin-top:200px ;
     margin-bottom: 30px;
+   
 }
 .free,.standard,.premium{
-    border:hidden;
-     width: 270px;
-     padding: 30px 25px 25px 25px;
+     border:2px solid#23A6F0;
+     width: 360px;
+     height: 500px;
+     padding: 25px 100px 50px 50px;
      transform: 1.3;
      background: white;
+     border-radius:30px 30px 30px 30px;
+    
+}
+.standard{
+     background-color: #252B42;
+}
+.standard>h4{
+    color:white;
+    font-weight: bold;
+    text-align: center;
+}
+.standard>p{
+    color: white;
+    padding-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.standard>ul>li{
+    color: white;
+    
+    padding-top: 30px;
+    list-style: none;
+}
+.standard>p.zero{
+    color:#23A6F0 ;
+    font-size: 60px;
+    margin-left: -110px;
+}
+.standard>p.sign{
+    color:#23A6F0;
+    font-size: 15px;
+    margin-top:-70px;
+    margin-left: 60px;
+}
+
+button.light{
+    color: white;
+    width: 200px;
+    height: 35px;
+    margin-top:15px;
+}
+.premium>h4{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+}
+.premium>p{
+    color:black;
+    padding-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.premium>ul>li{
+    color:black;
+    
+    padding-top: 30px;
+    list-style: none;
+}
+.premium>p.zero{
+    color:#23A6F0 ;
+    font-size: 60px;
+    margin-left: -110px;
+}
+.premium>p.sign{
+    color:#23A6F0;
+    font-size: 15px;
+    margin-top:-70px;
+    margin-left: 90px;
+}
+
+.free>p.zero{
+    color:#23A6F0 ;
+    font-size: 60px;
+    margin-left: -70px;
+}
+.free>p.sign{
+    color:#23A6F0;
+    font-size: 15px;
+    margin-top:-70px;
+    margin-left: 60px;
+}
+.free>h4{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+}
+.free>p{
+    color:black;
+    padding-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.free>ul>li{
+    color:black;
+    
+    padding-top: 30px;
+    list-style: none;
 }

@@ -7,9 +7,12 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
      <title>Insurance-landing-page</title>
 </head>
 <body>
+   <container>
       <header class="back">
          <nav>
             <ul class="navbar">
@@ -58,7 +61,7 @@
        </div>
        </div>
        </section>
-    
+    </container>
    <section>
       <div class="book">
          <div class="mind">
@@ -128,9 +131,9 @@
            <p class="zero">0</p>
            <p class="sign">$ <br>Per Month</p>
            <ul>
-             <li> <i class="far fa-check-circle"></i> Unlimited product updates</li>
-             <li> <i class="far fa-check-circle"></i>Unlimited product updates</li>
-             <li><i class="far fa-check-circle"></i> Unlimited product updates</li>
+             <li> <i id="am" class="far fa-check-circle"></i> Unlimited product updates</li>
+             <li> <i id="am" class="far fa-check-circle"></i>Unlimited product updates</li>
+             <li> <i id="am" class="far fa-check-circle"></i> Unlimited product updates</li>
              <li> <i class="far fa-check-circle"></i>1GB Cloud storage</li>
              <li><i class="far fa-check-circle"></i> Email and community support</li>
            </ul>
@@ -143,10 +146,10 @@
          <p class="zero">9.99</p>
          <p class="sign">$ <br>Per Month</p>
          <ul>
-           <li><i class="far fa-check-circle"></i> Unlimited product updates</li>
-           <li> <i class="far fa-check-circle"></i>Unlimited product updates</li>
-           <li><i class="far fa-check-circle"></i> Unlimited product updates</li>
-           <li><i class="far fa-check-circle"></i> 1GB Cloud storage</li>
+           <li> <i id="am" class="far fa-check-circle"></i> Unlimited product updates</li>
+           <li> <i id="am" class="far fa-check-circle"></i>Unlimited product updates</li>
+           <li> <i id="am" class="far fa-check-circle"></i> Unlimited product updates</li>
+           <li> <i class="far fa-check-circle"></i> 1GB Cloud storage</li>
            <li> <i class="far fa-check-circle"></i>Email and community support</li>
          </ul>
          <button class="light"> Try for free</button>
@@ -158,11 +161,11 @@
          <p class="zero">19.99</p>
          <p class="sign">$ <br>Per Month</p>
          <ul>
-           <li> <i class="far fa-check-circle"></i>Unlimited product updates</li>
-           <li><i class="far fa-check-circle"></i> Unlimited product updates</li>
-           <li> <i class="far fa-check-circle"></i>Unlimited product updates</li>
+           <li> <i id="am" class="far fa-check-circle"></i>Unlimited product updates</li>
+           <li> <i id="am" class="far fa-check-circle"></i> Unlimited product updates</li>
+           <li> <i id="am" class="far fa-check-circle"></i>Unlimited product updates</li>
            <li> <i class="far fa-check-circle"></i>1GB Cloud storage</li>
-           <li><i class="far fa-check-circle"></i> Email and community support</li>
+           <li> <i class="far fa-check-circle"></i> Email and community support</li>
          </ul>
          <button class="light"> Try for free</button>
 
@@ -192,65 +195,73 @@
              <p class="box"> Please select<i class="fa fa-angle-down" aria-hidden="true"></i></p>
              <p class="over">Time*</p>
              <p class="box"> 4:00 Available<i class="fa fa-angle-down" aria-hidden="true"></i></p>
-             <button>Book Appointment</button>
+             <button class="prep">Book Appointment</button>
          </div>
       </div>
-         <div class="agency">
-            <h3>Consultation Agency For Your Business</h3>
-            <p>the quick fox jumps over the lazy dog</p>
-            <button>Contact Us</button>
-         </div>
-      
-   </section>
-   <footer>
-   
-      <div class="company">
-         <h6>Company Info</h6>
-         <ul>
-            <li>About Us</li>
-            <li>Carrier</li>
-            <li>We are hiring</li>
-            <li>Blog</li>
-          </ul>
-      </div>
-      <div class="legal">
-         <h6>Legal</h6>
-         <ul>
-            <li>About Us</li>
-            <li>Carrier</li>
-            <li>We are hiring</li>
-            <li>Blog</li>
-         </ul>
-      </div>
-      <div class="features">
-         <ul>
-            <li>Business Marketing</li>
-            <li>User Analytic</li>
-            <li>Live Chat</li>
-            <li>Unlimited Support</li>
-         </ul>
-      </div>
-      <div class="Resources">
-         <ul>
-            <li>IOS $ Android</li>
-            <li>Watch a Demo</li>
-            <li>Customers</li>
-            <li>API</li>
-      </ul>
-      </div>
-      <div class="touch">
-          <ul>
-            <li>(480)555-0103</li>
-            <li>4517 Washington Ave.</li>
-            <li>debra.holt@example.com</li>
+      </section>
+      <div class="last">
+            <div class="agency">
+               <h3>Consultation Agency For Your Business</h3>
+               <p>the quick fox jumps over the lazy dog</p>
+               <button class="us">Contact Us</button>
+             </div>
+            <div class="footer">
+             <div class="company">
+              <h6>Company Info</h6>
+              <ul>
+                <li>About Us</li>
+                <li>Carrier</li>
+                <li>We are hiring</li>
+                <li>Blog</li>
+              </ul>
+             </div>
+             <div class="legal">
+              <h6>Legal</h6>
+              <ul>
+                <li>About Us</li>
+                <li>Carrier</li>
+                <li>We are hiring</li>
+                <li>Blog</li>
+              </ul>
+              </div>
+             <div class="features">
+               <h6>Features</h6>
+               <ul>
+                <li>Business Marketing</li>
+                 <li>User Analytic</li>
+                <li>Live Chat</li>
+                <li>Unlimited Support</li>
+               </ul>
+              </div>
+             <div class="resources">
+               <h6>Resources</h6>
+               <ul>
+                <li>IOS $ Android</li>
+                <li>Watch a Demo</li>
+                <li>Customers</li>
+               <li>API</li>
+               </ul>
+             </div>
+             <div class="touch">
+               <h6>Get In Touch</h6>
+               <ul>
+                <li>(480)555-0103</li>
+                <li>4517 Washington Ave.</li>
+                <li>debra.holt@example.com</li>
             
-          </ul>
+               </ul>
+            </div>
+   </div>
+   <footer class="olive">
+      <p>Made with love by Figmaland All Rights Reserved</p>
+      <div class="links">
+         <a href="#"><i class="fab fa-facebook-f"></i></a>
+         <a href="#"><i class="fab fa-instagram"></i></a>
+         <a href="#"><i class="fab fa-twitter"></i></a>
 
-      </div>
-      
+      </div> 
    </footer>
-
-    
+   
    
 </body>
 </html>
